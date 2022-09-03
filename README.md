@@ -10,4 +10,4 @@ Transfer learning & fine-tuning for brain tumor detection from brain MRI Images
 * The last 40 layers of the base model, InceptionV3, are unfreezed for fine-tuning.
 * Accuracy of 92% is achieved on validation and test datasets.
 
-* Source: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
+* Dataset Source: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
