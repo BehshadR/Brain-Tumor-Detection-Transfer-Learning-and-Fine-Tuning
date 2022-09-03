@@ -7,6 +7,7 @@ Transfer learning & fine-tuning for brain tumor detection from brain MRI Images
 * The InceptionV3 architecture is used as base CNN model for transfer learning.
 * Prefetching and multithreaded loading & preprocessing are implemented to improve speed.
 * A dropout layer and data augmentation are implemented for strong regularization. 
+* The last 40 layers of the base model, InceptionV3, are unfreezed for fine-tuning.
 * Accuracy of 92% is achieved on validation and test datasets.
 
 * Source: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
